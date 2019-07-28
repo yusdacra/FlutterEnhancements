@@ -1,0 +1,41 @@
+{
+	"cmd": ["flutter", "run", "--pid-file", "./.flutter.pid"],
+	"selector": "source.dart",
+	"file_patterns": ["*.dart"],
+	"working_dir": "${project_path:${folder}}",
+
+	"variants": [
+		{
+			"name": "Run Project (Debug)",
+			"cmd": ["flutter", "run", "--pid-file", "./.flutter.pid"]
+		},
+		{
+			"name": "Run Project (Release)",
+			"cmd": ["flutter", "run", "release"]
+		},
+		{
+			"name": "Run Tests",
+			"cmd": ["flutter", "test"]
+		},
+		{
+			"name": "Build APK",
+			"cmd": ["flutter", "build", "apk"]
+		},
+		{
+			"name": "Build iOS App Bundle",
+			"cmd": ["flutter", "build", "ios"]
+		},
+		{
+			"name": "Analyze Project",
+			"cmd": ["flutter", "analyze"]
+		},
+		{
+			"name": "Clean Project",
+			"cmd": ["flutter", "clean"]
+		},
+		{
+			"name": "Format Project",
+			"cmd": ["flutter", "format", "."]
+		},
+	]
+}

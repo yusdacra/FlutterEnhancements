@@ -1,0 +1,24 @@
+[
+	{
+		"caption": "Flutter: Hot Reload",
+		"command": "flutter_hot_reload"
+	},
+	{
+		"caption": "Flutter: Hot Restart",
+		"command": "flutter_hot_restart"
+	},
+	{
+		"caption": "Flutter: Doctor",
+		"command": "exec",
+		"args": {
+			"cmd": ["flutter", "doctor"]
+		}
+	},
+	{
+		"caption": "Flutter: Devices",
+		"command": "exec",
+		"args": {
+			"cmd": ["flutter", "devices"],
+		}
+	},
+]
